@@ -1,0 +1,27 @@
+PEMBELAJARAN PHP
+
+client side scripting :
+	+ html, css, javascript 
+
+server script scripting :
+	+  Web browser (HTML, CSS, Javascript)
+	+ web merequest ke server (apache, IIS, nginx, tomcat)
+	+ Script execution (PHP, ASP, Ruby, Python)
+		contoh : di dalam body html ada <h1> hello world
+			web browser akan meminta request ke server apakah ada bahasa seperti (python, php, dll / tidak)
+			jika tidak berarti web server akan langsung merespon permintannya (Hello World)
+			Ketika ada syntax PHP dalam 'codingan', misal : <h1> hello Oktovivian dan 'Oktovivian' ada dalam syntax PHP maka browser
+			merequest ke server dan melihat syntax PHP, maka PHP akan mengeksekusi script tersebut. ex : EHO, akan mencetak sesuatu
+			akan 'Oktovivian' akan dicetak sebagai HTML dan dikembalikan ke 'client side scripting'
+	+ Script dari bahasa tadi dapat terhubung ke database, sehingga website kita bisa dinamis, konten bisa berubah sesuai data yang kita
+	 ubah di databasenya.
+	+ butuh : webserver, bahasa PHP, database MySQL
+
+Install XAMPP
+\
+Menulis 'localhost' di browser sama dengan membuka file di htdocs yg di 'xampp' karena :
+	+ server akan mencari file yg namanya 'index.php' di folder itu
+	+ jika ada akan langsung menampilkan file itu
+	+ jika tidak ada akan mencari file yg namanya 'index.html'
+	+ jika tidak ada lagi, akan menampilkan semua isi foldernya 
+	+ kalau mau masuk ke folder kita, langsung masukkan namanya ex : localhost/belajarphp
